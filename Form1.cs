@@ -111,7 +111,7 @@ namespace FFGui
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string arguments = "--ffmpeg-location " + pathFfmpeg + " ";
+            string arguments = "--ffmpeg-location \"" + pathFfmpeg + "\" ";
             switch (mediaType)
             {
                 case 2:
